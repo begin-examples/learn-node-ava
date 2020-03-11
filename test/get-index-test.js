@@ -12,16 +12,14 @@ test.after(async () => {
   await sandbox.end()
 })
 
-// check for a response.body for home page. 
+// check for a response.body on GET request to / 
 test('get /', async t => {
-	t.plan(1)
   let url = 'http://localhost:3333'
   let result = await tiny.get({url})
   t.true(!!result.body)
 })
 
 test('@begin/data', async t => {
-  t.plan(2)
   // tests that @begin/data can write data
   let tmp = await data.set({table: 'tmp'})
   t.is(tmp.table, 'tmp')
