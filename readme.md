@@ -1,4 +1,4 @@
-<img src="https://static.begin.app/learn-node-ava/readme-banner.png" width="494">
+<img src="https://static.begin.app/learn-node-ava/readme-banner.png" width="649">
 
 $BADGE
 
