@@ -1,5 +1,5 @@
 @app
-init
+node-ava
 
 @http
 get /
