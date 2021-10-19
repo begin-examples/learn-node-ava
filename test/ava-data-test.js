@@ -27,5 +27,4 @@ test('@begin/data', async t => {
   // tests that @begin/data can read data
   let result = await data.get({table: 'tmp'})
   t.is(result.length, 1)
-  console.log(result)
 })
